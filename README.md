@@ -15,6 +15,6 @@
  2. 添加依赖
 ```
 	dependencies {
-	        compile 'com.github.heqiangflytosky:FastScrollWebView:v1.0.0'
+	        compile 'com.github.hawkwei0921:FastScrollWebView:v1.0.0'
 	}
 ```
