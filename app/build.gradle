@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+
+    defaultConfig {
+        applicationId "com.android.hq.fastscrollwebview"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.github.heqiangflytosky:FastScrollWebView:v1.0.0' // remote JitPack
+    // implementation fileTree(dir: 'libs', include: ['*.jar']) // local lib file
+    // implementation project(':library') // local lib project
+}
