@@ -19,7 +19,8 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.heqiangflytosky:FastScrollWebView:v1.0.0' // remote JitPack
+    implementation 'com.github.hawkwei0921:FastScrollWebView:v1.0.0' // remote JitPack
+    // implementation 'com.github.heqiangflytosky:FastScrollWebView:v1.0.0' // remote JitPack
     // implementation fileTree(dir: 'libs', include: ['*.jar']) // local lib file
     // implementation project(':library') // local lib project
 }
